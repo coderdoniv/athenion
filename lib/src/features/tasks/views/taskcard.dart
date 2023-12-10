@@ -1,4 +1,3 @@
-import 'package:athenion/src/components/text_input_field.dart';
 import 'package:athenion/src/constants/image_constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -15,7 +14,6 @@ class TaskCard extends StatelessWidget {
   final TextEditingController notesController;
   final Function(int itemKey) deleteProc;
   final Function(BuildContext ctx, int? itemKey) showForm;
-  final TextEditingController _taskNotesController = TextEditingController();
   @override
   Widget build(BuildContext context) {
     return Card(
